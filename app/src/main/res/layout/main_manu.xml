@@ -7,89 +7,82 @@
     android:layout_height="match_parent">
 
     <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="408dp"
-        android:layout_height="731dp"
+        android:id="@+id/bg_imageView"
+        android:layout_width="963dp"
+        android:layout_height="601dp"
+        android:scaleType="fitXY"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.333"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0"
-        tools:srcCompat="@drawable/main_manu_bg" />
+        tools:srcCompat="@drawable/main_menu_bg" />
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="248dp"
-        android:layout_height="124dp"
-        android:fontFamily="sans-serif-black"
+        android:layout_width="290dp"
+        android:layout_height="96dp"
+        android:fontFamily="cursive"
         android:text="@string/main_menu_name"
         android:textAlignment="center"
+        android:textAllCaps="true"
         android:textColor="#D5F2C0AD"
         android:textSize="60sp"
         android:textStyle="bold"
         android:typeface="normal"
-        app:layout_constraintBottom_toBottomOf="@+id/imageView"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/imageView"
-        app:layout_constraintVertical_bias="0.057" />
-
-    <TextView
-        android:id="@+id/textView2"
-        android:layout_width="292dp"
-        android:layout_height="66dp"
-        android:text="@string/main_menu_description"
-        android:textAlignment="center"
-        android:textColor="#8B0A1C2E"
-        android:textSize="36sp"
-        app:layout_constraintBottom_toBottomOf="@+id/imageView"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.495"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/imageView"
-        app:layout_constraintVertical_bias="0.239" />
+        app:layout_constraintTop_toTopOf="@+id/bg_imageView"
+        app:layout_constraintVertical_bias="0.061" />
 
     <Button
         android:id="@+id/button1"
-        android:layout_width="183dp"
-        android:layout_height="68dp"
+        android:layout_width="206dp"
+        android:layout_height="66dp"
         android:background="#4DFFFFFF"
         android:backgroundTint="#FFFFFF"
         android:text="@string/start_game"
         android:textAllCaps="true"
+        android:textSize="24sp"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.402" />
+        app:layout_constraintVertical_bias="0.272" />
 
     <Button
         android:id="@+id/button2"
-        android:layout_width="183dp"
-        android:layout_height="68dp"
+        android:layout_width="206dp"
+        android:layout_height="66dp"
         android:background="#4DFFFFFF"
         android:backgroundTint="#FFFFFF"
         android:text="@string/tutorial"
         android:textAllCaps="true"
+        android:textSize="24sp"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.556" />
+        app:layout_constraintVertical_bias="0.42" />
 
     <Button
         android:id="@+id/button3"
-        android:layout_width="183dp"
-        android:layout_height="68dp"
+        android:layout_width="206dp"
+        android:layout_height="66dp"
         android:background="#4DFFFFFF"
         android:backgroundTint="#FFFFFF"
         android:text="@string/quit_name"
+        android:textAllCaps="true"
+        android:textSize="24sp"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.701" />
+        app:layout_constraintVertical_bias="0.571" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
