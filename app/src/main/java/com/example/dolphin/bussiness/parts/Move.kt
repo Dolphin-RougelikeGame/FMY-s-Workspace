@@ -4,6 +4,7 @@ import com.example.dolphin.bussiness.parts.Border
 
 class Move {
     // Default speed
+    //cooX, cooY是移动目标的坐标，speed是速度，border是移动的边界
     var cooX: Double = 0.0
     var cooY: Double = 0.0
     var speed: Double = 1.0
