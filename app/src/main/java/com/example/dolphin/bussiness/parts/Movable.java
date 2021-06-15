@@ -2,9 +2,6 @@ package com.example.dolphin.bussiness.parts;
 
 import com.example.dolphin.bussiness.Direction;
 
-/**
- * Created by THINK on 2018/8/9.
- */
 
 public abstract class Movable {
 
