@@ -21,8 +21,8 @@ public class UnbreakableWall extends Wall {
         int width = bitmap.getWidth();
         int height = bitmap.getHeight();
 
-        float scaleWidth = ((float) 40) / width;
-        float scaleHeight = ((float) 40) / height;
+        float scaleWidth = ((float) 80) / width;
+        float scaleHeight = ((float) 80) / height;
         // 取得想要缩放的matrix参数
         Matrix matrix = new Matrix();
         matrix.postScale(scaleWidth, scaleHeight);

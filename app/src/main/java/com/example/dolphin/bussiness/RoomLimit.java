@@ -22,9 +22,10 @@ public class RoomLimit implements Shape {
     }
 
     public int RoomSizeFeature() {
-        int random1 = random.nextInt(8);
-        this.RoomSize = (int) (RoomSizeParam * random1) + 12;
-        return RoomSize;
+        int random1 = random.nextInt(2);
+        this.RoomSize = (int) (RoomSizeParam * random1) + 8;
+        return 9;
+        //return RoomSize;
     }
 
     public boolean RoomShapeFeature() {
